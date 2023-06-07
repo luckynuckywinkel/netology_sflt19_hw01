@@ -45,7 +45,8 @@
   
  - Развернем несколько машин в virtualbox используя Vagrant и напишем небольшой плэйбук в Ansible, чтобы поставить nginx + keepalived:  
  
-`- name: pushing nginx
+```
+- name: pushing nginx
   hosts: nginx
   become: true
   tasks:
@@ -67,7 +68,9 @@
     systemd:
       name: nginx
       state: started
-      enabled: yes`
+      enabled: yes
+      
+  ```    
 
 
 
