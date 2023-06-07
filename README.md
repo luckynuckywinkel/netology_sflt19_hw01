@@ -16,7 +16,7 @@
   
   - Для начала, хочу заметить, что в настройке данной топологии допущена ошибка и, при подобном отключении, пакеты от ПК до сервера ходить перестают:  
 
-![err_scheme] (https://github.com/luckynuckywinkel/netology_sflt19_hw01/tree/main/img/main.JPG)
+(https://github.com/luckynuckywinkel/netology_sflt19_hw01/tree/main/img/main.JPG)
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
