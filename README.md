@@ -16,7 +16,7 @@
   
   - Для начала, хочу заметить, что в настройке данной топологии допущена ошибка и, при подобном отключении, пакеты от ПК до сервера ходить перестают:  
 
-![Скриншот-1](https://github.com/netology-code/sys-pattern-homework/blob/main/img/img15.png)
+![Скриншот-1](https://github.com/luckynuckywinkel/netology_sflt19_hw01/tree/main/img/main.jpg)
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
