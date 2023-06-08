@@ -70,8 +70,27 @@
       state: started
       enabled: yes
       
-  ```    
+  ```      
+    
+    - Напишем bash-скрипт, удовлетворяющий нашим условиям. Для проверки порта будем использовать curl, для проверки существования файла - **-f**.  
+      
+      ```
+#!/bin/bash
 
+# Проверка доступности порта с использованием curl
+curl --head --silent --fail "http://localhost:80" >/dev/null 2>&1
+if [ $? -ne 0 ]; then
+  exit 1
+fi
+
+# Проверка существования файла index.html
+if [ ! -f "/var/www/html/index.nginx-debian.html" ]; then
+  exit 1
+fi
+
+exit 0
+
+```
 
 
 ```
