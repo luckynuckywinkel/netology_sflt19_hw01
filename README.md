@@ -68,13 +68,13 @@
     systemd:
       name: nginx
       state: started
-      enabled: yes
+      enabled: yes ```
       
-  ```      
+    
     
     - Напишем bash-скрипт, удовлетворяющий нашим условиям. Для проверки порта будем использовать curl, для проверки существования файла - **-f**.  
       
-      ```
+ ```
 #!/bin/bash
 
 # Проверка доступности порта с использованием curl
@@ -88,9 +88,7 @@ if [ ! -f "/var/www/html/index.nginx-debian.html" ]; then
   exit 1
 fi
 
-exit 0
-
-```
+exit 0 ```
 
 
 ```
