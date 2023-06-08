@@ -68,7 +68,7 @@
     systemd:
       name: nginx
       state: started
-      enabled: yes ```
+      enabled: yes 
       
     
     
